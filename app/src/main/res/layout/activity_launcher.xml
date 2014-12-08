@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Small Text"
+        android:text="Text is Small"
         android:id="@+id/textView"
         android:layout_alignBottom="@+id/textView"
         android:layout_alignParentRight="true"
