@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">Biographies</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="launcher_name">Kentucky Entrepreneur Hall Of Fame</string>
     <string name="action_settings">Settings</string>
 
 </resources>
