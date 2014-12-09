@@ -14,5 +14,5 @@
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textSize="40dp" />
+        android:textSize="40sp" />
 </RelativeLayout>
