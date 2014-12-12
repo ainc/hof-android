@@ -16,6 +16,7 @@ public class Launcher extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_launcher);
 
+        // Get Decor View
         mDecorView = getWindow().getDecorView();
     }
 
@@ -23,6 +24,7 @@ public class Launcher extends ActionBarActivity {
     @Override
     public void onWindowFocusChanged(boolean hasFocus) {
         super.onWindowFocusChanged(hasFocus);
+        // Setting IMMERSIVE STICKY
         if (hasFocus) {
             mDecorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE
                     | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
